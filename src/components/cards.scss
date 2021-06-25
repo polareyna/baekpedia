@@ -1,0 +1,41 @@
+.container{
+    color: white;
+}
+
+.card{
+    color: white !important;
+    margin-left: 5%;
+    margin-right: 5%;
+    background: rgba(70, 70, 70, 1);
+    transform: scale(1);
+    box-shadow: 0px 8px 10px grey;
+    transition: transform 0.25s linear;
+    will-change: transform;
+    cursor: pointer;
+    border: 3px solid black;
+     &:hover {
+        transform: scale(1.05);
+      }
+}
+
+.card-image{
+    width: 292px;
+    height: 200px;
+    background-color: black;
+}
+
+.card-title{
+    text-align: center;
+    text-shadow: 1px 1px 1px black;
+    font-weight: bolder;
+}
+
+.logo{
+    width:80px;
+    height: 60px;
+}
+
+.superm-logo{
+    width:60px;
+    height: 60px;
+}

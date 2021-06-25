@@ -1,0 +1,19 @@
+.navbar-custom {
+    background-color: black;
+}
+
+  .navbar-default .navbar-nav > li > a {
+    color: white;
+  }
+  
+.item{
+    width: 900px;
+    text-align: center;
+    transition: transform 0.05s linear;
+    will-change: transform;
+    cursor: pointer;
+     &:hover {
+        transform: scale(1.01);
+        background-color: #353839;
+      }
+}
